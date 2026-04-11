@@ -15,9 +15,9 @@
         ├── server/                 # Elixir Backend
         │   ├── mix.exs
         │   ├── lib/
-        │   │   ├── live_sketch/
-        │   │   │   └── application.ex
-        │   │   └── live_sketch_web/
+        │       ├── live_sketch/
+        │       │   └── application.ex
+        │       └── live_sketch_web/
         │       │       ├── endpoint.ex
         │       │       ├── router.ex
         │       │       └── live/
