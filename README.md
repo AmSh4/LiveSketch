@@ -80,5 +80,37 @@ Access at `http://localhost:4000`.
 Fork the repo, create a branch, and submit a PR. Focus on adding new tools or improving analytics.
 
 ---
+# Contributing
+
+Contributions are welcome.
+
+To contribute:
+
+1. Fork the repository.
+2. Create a feature branch.
+
+```bash
+git checkout -b feature-name
+```
+
+3. Commit your changes.
+
+```bash
+git commit -m "Add new feature"
+```
+
+4. Push the branch.
+
+```bash
+git push origin feature-name
+```
+
+5. Open a Pull Request.
+
+---
+
+
+
+
 ## License
 MIT License.
