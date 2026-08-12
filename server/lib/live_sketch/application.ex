@@ -4,7 +4,6 @@ defmodule LiveSketch.Application do
   @impl true
   def start(_type, _args) do
     children = [
-      LiveSketchWeb.Telemetry,
       {Phoenix.PubSub, name: LiveSketch.PubSub},
       LiveSketchWeb.Endpoint
     ]
@@ -15,7 +14,7 @@ defmodule LiveSketch.Application do
 
   @impl true
   def config_change(changed, _new, removed) do
-    LiveSketchWeb.Endpoint.config_change(changed, new, removed)
+    LiveSketchWeb.Endpoint.config_change(changed, removed)
     :ok
   end
 end
